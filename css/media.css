@@ -1,0 +1,386 @@
+/* sm 576px -->      */
+@media screen and (min-width:576px) {
+    .sm-50 {
+        width: 50%;
+    }
+
+    .sm-33 {
+        width: 33.333%;
+    }
+
+    .sm-25 {
+        width: 25%;
+    }
+
+    .sm-20 {
+        width: 20%;
+    }
+
+    .sm-16 {
+        width: 16.66%;
+    }
+
+}
+
+/* md 768px  -->    */
+@media screen and (min-width:768px) {
+    .md-50 {
+        width: 50%;
+    }
+
+    .md-33 {
+        width: 33.333%;
+    }
+
+    .md-25 {
+        width: 25%;
+    }
+
+    .md-20 {
+        width: 20%;
+    }
+
+    .md-16 {
+        width: 16.66%;
+    }
+
+    .demo {
+        margin: 8px 0px 0px;
+        padding: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+
+    }
+
+
+    /* ============== Start Style Header ============== */
+
+    /* Style Text Home */
+    .text-home h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .text-home p {
+        font-size: 20px;
+        line-height: 32.5px;
+    }
+
+
+    /* Style In-Form-1 */
+    #home .form .in-form1 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-areas:
+            "itme1 itme1 itme1"
+            "itme2 itme2 itme2"
+            "itme3 itme3 itme3";
+        gap: 16px;
+    }
+
+    /* Style In-Form-2 */
+    #home .form .in-form2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-areas:
+            "itme1 itme2"
+            "itme3 itme4"
+        ;
+        gap: 16px;
+    }
+
+    /* ============== End Style Header ============== */
+
+
+    /* ============== Start Style Section Two ============== */
+    #section-two .content-head h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    /* Style Card Item Right */
+    #section-two .row .card-item-rh {
+        margin: 40px 0px;
+    }
+
+    /* ============== End Style Section One ============== */
+
+
+    /* ============== Start Style Section Three ============== */
+
+
+    /* Style Card Item */
+
+    #section-three .card-item {
+        width: 80%;
+    }
+
+    /* Style Carousel */
+
+    .carousel-indicators {
+        bottom: -10%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        right: 0;
+
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    /* ============== End Style Section Three ============== */
+
+
+    /* ============== Start Style Section Four ============== */
+
+    /* Style Content Head of Section */
+
+    #section-four .content-head .box::before {
+        left: -58%;
+    }
+
+    #section-four .content-head .box::after {
+        right: -58%;
+    }
+
+    /* ============== End Style Section Four ============== */
+
+
+    /* ============== Start Style Section Five ============== */
+    #section-five .content-head h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    #section-five .content-head p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    /* ============== End Style Section Five ============== */
+
+
+
+}
+
+/* lg 992px  -->       */
+@media screen and (min-width:992px) {
+    .lg-50 {
+        width: 50%;
+    }
+
+    .lg-33 {
+        width: 33.333%;
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .lg-20 {
+        width: 20%;
+    }
+
+    .lg-16 {
+        width: 16.66%;
+    }
+
+    /* ============== Start Style NavBar ============== */
+
+    a.nav-link::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0%;
+        background-color: var(--color-pink);
+        bottom: 0;
+        left: 0;
+        transition: all 0.5s;
+    }
+
+    .nav-item {
+        padding: 5px 10px;
+    }
+
+    a.nav-link:hover::after {
+        width: 100%;
+    }
+
+    a.nav-link.active::after {
+        width: 100%;
+    }
+
+    .nav-item:hover {
+        background-color: transparent;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        transform: translateX(-50%);
+    }
+
+    .demo {
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: start;
+
+    }
+
+
+    /* ============== End Style NavBar ============== */
+
+
+    /* ============== Start Style Header ============== */
+
+    /* Style Text Home */
+    .text-home h1 {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .text-home p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+
+    /* Style In-Form-1 */
+    #home .form .in-form1 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-areas:
+            "itme1 itme1 itme2 itme3";
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* Style In-Form-2 */
+    #home .form .in-form2 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-areas:
+            "itme1 itme2 itme3 itme4 "
+        ;
+        align-items: center;
+        gap: 16px;
+    }
+
+    /* ============== End Style Header ============== */
+
+    /* ============== Start Style Section One ============== */
+
+    /* Style Content Head */
+
+    #section-one .content-head h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    /* ============== End Style Section One ============== */
+
+    /* ============== Start Style Section Two ============== */
+    #section-two .content-head h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    /* Style Card Item Right */
+    #section-two .row .card-item-rh {
+        margin: 40px 0px;
+    }
+
+    /* ============== End Style Section One ============== */
+
+    /* ============== Start Style Section Three ============== */
+
+    /* Style Card Item */
+    #section-three .card-item {
+        width: 70%;
+    }
+
+    /* Style Carousel */
+    .carousel-indicators {
+        bottom: -15%;
+    }
+
+    /* ============== End Style Section Three ============== */
+
+
+    /* ============== Start Style Section Four ============== */
+
+    /* Style Content Head of Section */
+
+    #section-four .content-head .box::before {
+        left: -50%;
+    }
+
+    #section-four .content-head .box::after {
+        right: -50%;
+    }
+
+    /* ============== End Style Section Four ============== */
+
+    /* ============== Start Style Section Five ============== */
+    #section-five .content-head h2 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    #section-five .content-head p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    /* ============== End Style Section Five ============== */
+
+}
+
+/* xl 1200px  -->       */
+@media screen and (min-width:1200px) {
+    .xl-50 {
+        width: 50%;
+    }
+
+    .xl-33 {
+        width: 33.333%;
+    }
+
+    .xl-25 {
+        width: 25%;
+    }
+
+    .xl-20 {
+        width: 20%;
+    }
+
+    .xl-16 {
+        width: 16.66%;
+    }
+
+}
+
+/* xxl 1400px  -->       */
+@media screen and (min-width:1400px) {
+    .xxl-50 {
+        width: 50%;
+    }
+
+    .xxl-33 {
+        width: 33.333%;
+    }
+
+    .xxl-25 {
+        width: 25%;
+    }
+
+    .xxl-20 {
+        width: 20%;
+    }
+
+    .xxl-16 {
+        width: 16.66%;
+    }
+
+}
